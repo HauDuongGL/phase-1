@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="GhostStats" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ghost_stats.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+speed = 120.0
+gravity = 900.0
+jump_velocity = -300.0
