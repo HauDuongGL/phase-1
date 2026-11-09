@@ -1,0 +1,9 @@
+{
+  "godotTools.editorPath.godot4": "",
+  "godotTools.lsp.serverHost": "127.0.0.1",
+  "godotTools.lsp.serverPort": 6008,
+  "files.exclude": {
+    "**/.godot": true,
+    "**/*.import": true
+  }
+}
