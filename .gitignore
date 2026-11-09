@@ -5,8 +5,24 @@
 # Exports
 /builds/
 /export/
+export_presets.cfg
+*.pck
+*.apk
+*.aab
+*.ipa
+*.keystore
+*.jks
+
+# Mono/C# (only relevant if the project starts using C#)
+.mono/
+mono_crash.*.json
 
 # OS / editor junk
 .DS_Store
 Thumbs.db
 *.tmp
+
+# VS Code (keep settings.json and extensions.json tracked for team setup)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
